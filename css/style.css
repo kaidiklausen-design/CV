@@ -103,7 +103,7 @@ ul {
 
 .skills li i,
 .languages li i {
-  color: var(--primary-color);
+  color: #333333;
   margin-right: 1rem;
 }
 
