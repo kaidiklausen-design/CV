@@ -103,7 +103,7 @@ ul {
 
 .skills li i,
 .languages li i {
-  color: var(--accent-beige);
+  color: var(--primary-color);
   margin-right: 1rem;
 }
 
