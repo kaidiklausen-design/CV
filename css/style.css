@@ -26,14 +26,20 @@ body {
   padding: 2rem 0;
 }
 
-/* FOTO */
 .cv-image img {
   width: 180px;
   border-radius: 8px;
   margin-bottom: 2rem;
 }
 
-/* GRID LAYOUT */
+#cv-image img {
+  border: 3px solid #333333;
+  border-radius: 8px;
+  width: 180px;
+}
+
+
+
 .main {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -45,7 +51,7 @@ body {
   margin-bottom: 3rem;
 }
 
-/* PEALKIRJAD */
+
 .main h2 {
   font-family: var(--heading-font);
   font-size: 1.4rem;
@@ -59,7 +65,7 @@ h3 {
   font-weight: 600;
 }
 
-/* TEKST */
+
 .main p,
 .main li {
   font-family: var(--body-font);
@@ -107,7 +113,7 @@ ul {
   margin-right: 1rem;
 }
 
-/* FOOTER */
+
 footer {
   margin-top: 8rem;
   text-align: center;
@@ -149,7 +155,7 @@ hr {
 }
 
 
-/* Värvid brändide järgi */
+
 .social-media-list .linkedin i {
   color: #8890FF;
 }
