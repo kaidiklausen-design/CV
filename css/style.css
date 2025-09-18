@@ -30,14 +30,9 @@ body {
   width: 180px;
   border-radius: 8px;
   margin-bottom: 2rem;
-}
-
-#cv-image img {
   border: 10px solid #333333;
-  border-radius: 8px;
   width: 180px;
 }
-
 
 
 .main {
