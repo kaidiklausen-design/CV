@@ -40,8 +40,8 @@ body {
   gap: 4rem 4rem;
 }
 
-.left-col > div,
-.right-col > div {
+.left-block > div,
+.right-block > div {
   margin-bottom: 3rem;
 }
 
