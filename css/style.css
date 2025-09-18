@@ -1,0 +1,187 @@
+:root {
+  --primary-color: #333333;
+  --primary-light: #fff4e6;
+  --muted-grey: #A0A39D;
+  --accent-beige: #BFAF95;
+  --heading-font: "Playfair Display", serif;
+  --body-font: "Roboto", sans-serif;
+  --link-font: "Quicksand", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-light);
+  font-family: var(--body-font);
+  color: var(--primary-color);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+/* FOTO */
+.cv-image img {
+  width: 180px;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+/* GRID LAYOUT */
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem 4rem;
+}
+
+.left-col > div,
+.right-col > div {
+  margin-bottom: 3rem;
+}
+
+/* PEALKIRJAD */
+.main h2 {
+  font-family: var(--heading-font);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  border-left: 6px solid var(--accent-beige);
+  padding-left: 0.5rem;
+}
+
+h3 {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+/* TEKST */
+.main p,
+.main li {
+  font-family: var(--body-font);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.languages h2 {
+    padding-top: 2rem;
+}
+
+.about-me h2 {
+    padding-top: 2rem;
+}
+
+.contact-info h2 {
+    padding-top: 2rem;
+}
+
+
+.skills h2 {
+    padding-top: 2rem;
+}
+
+.work-experience h2 {
+    padding-top: 2rem;
+}
+
+.professional-development h2 {
+    padding-top: 2rem;
+}
+
+.education-background h2 {
+    padding-top: 2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li i,
+.languages li i {
+  color: var(--accent-beige);
+  margin-right: 1rem;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 8rem;
+  text-align: center;
+}
+
+hr {
+  width: 100%;
+  max-width: 450px;
+  height: 4px;
+  border: none;
+  background-color: var(--accent-beige);
+  border-radius: 10px;
+  margin: 6rem auto;
+}
+
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.social-media-list li i {
+  font-size: 3rem;
+  color: var(--muted-grey);
+}
+
+.contact-links-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 6rem;
+}
+
+.contact-links-list li a {
+  text-decoration: none;
+  color: var(--muted-grey);
+  font-family: var(--link-font);
+}
+
+
+/* Värvid brändide järgi */
+.social-media-list .linkedin i {
+  color: #8890FF;
+}
+
+.social-media-list .facebook i {
+  color: #B5B1EA;
+}
+
+.social-media-list .instagram i {
+  color: #E983E2;
+}
+
+
+.copyright {
+  font-size: 0.9rem;
+  color: var(--primary-color);
+}
+
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 1rem;
+    }
+
+.cv-image {
+    padding-top: 2rem;
+}
+
+
+  .social-media-list,
+  .contact-links-list {
+    gap: 2rem;
+  }
+}
