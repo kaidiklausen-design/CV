@@ -173,18 +173,15 @@ hr {
     .container {
         width: 100%;
         padding: 1rem;
-    section.main {
-        display: block !important;
     }
 
 .cv-image {
     padding-top: 2rem;
 }
 
-    section.main {
+  section.main {
     display: block !important;
 
-  
 
   .social-media-list,
   .contact-links-list {
