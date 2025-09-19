@@ -180,8 +180,7 @@ hr {
 }
 
 .main {
-    flex-direction: column;
-    align-items: flex-start;
+    grid-template-columns: 1fr;
   }
   
 
